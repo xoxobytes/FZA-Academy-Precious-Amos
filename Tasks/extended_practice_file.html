@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p>This is some normal text</P>
+        <p>This is some <b>bold</b> text</P>
+        <p>This is some <i>italic</i> text</P>
+        <P>This is some <u>underlined</u> text</P>
+        <P>This is some <big>slightly big</big> text</P>
+        <P>This is some <small>smol</small> text</P>
+        <P>This is some <sub>subscript</sub> text</P>
+        <P>This is some <sup>superscript</sup> text</P>
+        <P>This is some <tt>monospaced</tt> text</P>
+        <P>This is some <mark style="background-color: aquamarine;">highlighted</mark> text</P>
+
+        <h1>This is a span title</h1>
+        <h1>This is a div title</h1>
+
+        <hr>
+        <h3>Market List</h3>
+        <ul>
+            <li>Afang</li>
+            <li>Waterleaf</li>
+            <li>Maggi</li>
+            <li>Stockfish</li>
+            <li>Pepper</li>
+            <li>Salt</li>
+        </ul>
+
+        <h3>To Do List</h3>
+        <ol>
+            <li>Fetch Water</li>
+            <li>Go to work</li>
+            <li>Close Early & go to class</li>
+            <li>Complete Web Dev Project</li>
+        </ol>
+
+        <h3>Superheroes</h3>
+        <dl>
+            <dt>Black Panther</dt>
+            <dd>Black Panther's real name is T'Challa, and he is depicted as the king and protector of the fictional African nation of Wakanda.</dd>
+
+            <dt>Spider-man</dt>
+            <dd>Spider-Man's secret identity is Peter Benjamin Parker, a teenage high school student and an orphan raised by his Aunt May and Uncle Ben in New York City after his parents Richard and Mary Parker died in a plane crash.</dd>
+
+            <dt>Doctor Strange</dt>
+            <dd>Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats.</dd>
+
+            <dt>Iron Man</dt>
+            <dd>Iron Man is the superhero persona of Anthony Edward "Tony" Stark, a businessman and engineer who runs the company Stark Industries.</dd>
+        </dl>
+
+        <hr>
+
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter Username" minlength="4" maxlength="16">
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password"  maxlength="16">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"  placeholder="xyz@gmail.com"> 
+            <br><br>
+
+            <label for="phone">Phone No.:</label>
+            <input type="tel" id="phone" required placeholder="0123-456-7890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"> 
+            <br><br>
+
+            <label for="bday">Birthday:</label>
+            <input type="date" id="bday">
+            <br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" value="1" min="1" max="100">
+            <br><br>
+
+            <label for="title">Title:</label>
+            <label for="mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title">
+
+            <label for="mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title">
+
+            <label for="phd">PhD</label>
+            <input type="radio" id="phd" name="title">
+            <br><br>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="verve">Verve</option>
+                <option value="americanxpress">American Express</option>
+            </select>
+            <br><br>
+
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe">
+            <br><br>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" rows="3" cols="15"></textarea>
+            <br><br>
+
+            <label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+
+
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>
